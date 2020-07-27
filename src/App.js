@@ -4,7 +4,7 @@ import Todoinput from "./components/TodoInput";
 import TodoList from "./components/todoList";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { v1 as uuid } from "uuid";
-import "font-awesome/css/font-awesome.min.css";
+
 class App extends Component {
   state = {
     items: [],
